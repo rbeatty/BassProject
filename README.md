@@ -25,16 +25,13 @@ included grunt taks
 	* base-forms
 	* base-buttons
 	* base-tables
-
 	* utility-layout
 	* utility-typography
 	* utility-white-space
 	* utility-responsive-states
 	* positions
-
 	* grid
 	* table-object
-
 	* color-base
 	* color-forms
 	* color-forms-dark
@@ -42,7 +39,6 @@ included grunt taks
 	* color-buttons
 	* colors
 	* color-borders
-
 	* defaults
 
 ### javascript
