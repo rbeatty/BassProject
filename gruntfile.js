@@ -11,10 +11,9 @@ module.exports = function(grunt) {
         '* Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %>\n*/\n'
     },
     curl: {
-      'src/styles/imports/__normalize.scss': 'https://raw.githubusercontent.com/kristerkari/normalize.scss/master/_normalize.scss',
       // 'js/es5-shim.min.js': 'https://raw.githubusercontent.com/es-shims/es5-shim/master/es5-shim.min.js',
       // 'js/es5-shim.map': 'https://raw.githubusercontent.com/es-shims/es5-shim/master/es5-shim.map',
-      // 'partials/Mobile_Detect.php': 'https://raw.githubusercontent.com/serbanghita/Mobile-Detect/master/Mobile_Detect.php',
+      'partials/Mobile_Detect.php': 'https://raw.githubusercontent.com/serbanghita/Mobile-Detect/master/Mobile_Detect.php',
       '.htaccess': 'https://github.com/h5bp/server-configs-apache/blob/master/dist/.htaccess'
     },
     imagemin: {
