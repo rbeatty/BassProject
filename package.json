@@ -1,0 +1,34 @@
+{
+  "name": "bassproject",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "http://randallbeatty.com",
+  "repository": "",
+  "author": [
+    {
+      "name": "Randall Beatty",
+      "email": "beattyrandall@gmail.com",
+      "url": "http://randallbeatty.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "~0.8.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-curl": "^2.0.3",
+    "grunt-sass": "*"
+  }
+}
