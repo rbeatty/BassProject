@@ -74,6 +74,10 @@ ___
 
 ### Changelog
 
+#### 0.2.0
+* Basscss 5.0.1
+* Bump package versions
+
 #### 0.1.0
 * Basscss 4.3.2
 

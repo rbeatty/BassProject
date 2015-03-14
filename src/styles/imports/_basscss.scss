@@ -1,24 +1,30 @@
-@import "basscss/_base-reset";
-@import "basscss/_base-typography";
-@import "basscss/_base-forms";
-@import "basscss/_base-buttons";
-@import "basscss/_base-tables";
+@import 'basscss/_defaults';
 
-@import "basscss/_utility-layout";
-@import "basscss/_utility-typography";
-@import "basscss/_utility-white-space";
-@import "basscss/_utility-responsive-states";
-@import "basscss/_positions";
+@import 'basscss/_base-reset';
+@import 'basscss/_base-forms';
+@import 'basscss/_base-buttons';
+@import 'basscss/_base-tables';
+@import 'basscss/_base-typography';
 
-@import "basscss/_grid";
-@import "basscss/_table-object";
+@import 'basscss/_utility-layout';
+@import 'basscss/_utility-typography';
+@import 'basscss/_utility-white-space';
+@import 'basscss/_utility-responsive-states';
+@import 'basscss/_positions';
+@import 'basscss/_ui-utility-button-sizes';
 
-// @import "basscss/_color-base";
-// @import "basscss/_color-forms";
-// @import "basscss/_color-forms-dark";
-// @import "basscss/_color-tables";
-// @import "basscss/_color-buttons";
-// @import "basscss/_colors";
-// @import "basscss/_color-borders";
+@import 'basscss/_grid';
+@import 'basscss/_flex-object';
 
-// @import "basscss/_defaults";
+@import 'basscss/_color-base';
+@import 'basscss/_color-forms';
+@import 'basscss/_color-forms-dark';
+@import 'basscss/_input-range';
+@import 'basscss/_color-tables';
+
+@import 'basscss/_button-outline';
+@import 'basscss/_button-transparent';
+@import 'basscss/_background-images';
+@import 'basscss/_color-borders';
+
+@import 'basscss/_colors';
