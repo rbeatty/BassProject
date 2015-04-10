@@ -5,14 +5,19 @@ A starting point for new web projects using [Basscss](http://www.basscss.com/). 
 
 * grunt
 * stylesheets
-	* mixins.scss -- simple mixins
-	* basscss.scss -- broken out into individual modules
+	* mixins.scss
+	* basscss.scss - broken out into individual modules
 * javascript
 	* modernizr custom build
 
 ___
 
 ### Changelog
+
+#### 0.3.0
+* Basscss 5.2.1
+* Added additional favicons
+* Added respond.js for old IE
 
 #### 0.2.0
 * Basscss 5.0.1

@@ -3,7 +3,7 @@
 define('PRODUCTION', false);
 
 // meta info
-$site_title = "";
+$site_title = "BassProject";
 $legalName = "";
 $description = "";
 $keywords = "";

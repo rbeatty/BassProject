@@ -5,11 +5,10 @@
   $device_type = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
 ?>
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js ie7 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="no-js ie8 lt-ie9"><![endif]-->
-<!--[if IE 9]><html class="no-js ie9 lt-ie10"><![endif]-->
+<!--[if lte IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gte IE 9 | !IE ]><!-->
 <html class="no-js <?php echo $device_type ?>">
+<!--<![endif]-->
 <head>
   <meta charset="utf-8" />
   <title><?php echo $site_title ?></title>
@@ -37,19 +36,21 @@
   <meta property="business:contact_data:email" content="<?php echo $email ?>" />
   <meta property="business:contact_data:website" content="<?php echo $url ?>" />
   <meta property="fb:admins" content="<?php echo $facebook_id ?>" />
-  
+
   <?php if(PRODUCTION): ?>
     <link rel="stylesheet" href="css/style.min.css" media="screen" />
   <?php else: ?>
     <link rel="stylesheet" href="css/style.css" media="screen" />
   <?php endif; ?>
 
-  <link rel="icon" type="image/png" sizes="16x16 32x32 64x64" href="favicon.png">
-  <link rel="icon" type="image/png" sizes="any" href="favicon.svg">
+  <!-- Generate favicons (http://realfavicongenerator.net) -->
+  <?#php include 'partials/favicons.php' ?>
 
   <!--[if IE]>
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
