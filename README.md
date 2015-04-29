@@ -14,6 +14,9 @@ ___
 
 ### Changelog
 
+#### 0.3.1
+* Added ie8.js
+
 #### 0.3.0
 * Basscss 5.2.1
 * Added additional favicons

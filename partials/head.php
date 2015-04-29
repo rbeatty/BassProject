@@ -46,11 +46,10 @@
   <!-- Generate favicons (http://realfavicongenerator.net) -->
   <?#php include 'partials/favicons.php' ?>
 
-  <!--[if IE]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
   <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js" ></script>
   <![endif]-->
 </head>
 <body>
