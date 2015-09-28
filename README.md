@@ -3,18 +3,24 @@ BassProject
 
 A starting point for new web projects using [Basscss](http://www.basscss.com/). [Docs](http://basscss.com/docs)
 
-* grunt
-* stylesheets
+* Gulp
+* Stylesheets
+  * basscss.css
 	* mixins.scss
-	* basscss.scss - broken out into individual modules
-* javascript
+* Javascript
 	* modernizr custom build
 
 ___
 
 ### Changelog
 
-#### 0.3.1
+#### 0.5.0
+* Basscss 7.0.4
+* Stripped Basscss of any theming
+* Use Gulp instead of Grunt
+* Update packages
+
+#### 0.4.0
 * Added ie8.js
 
 #### 0.3.0
