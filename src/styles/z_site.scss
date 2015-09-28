@@ -9,9 +9,9 @@ $heading-font: $body-font;
 }
 
 body {
-  font: normal normal 400 14px/1.5 $body-font;
-  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 16px/1.5 $body-font;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-text-size-adjust: 100%;
