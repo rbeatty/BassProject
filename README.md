@@ -1,14 +1,14 @@
 BassProject
 ===========
 
-A starting point for new web projects using [Basscss](http://www.basscss.com/). [Docs](http://basscss.com/docs)
+A starting point for new web projects using [Basscss](http://www.basscss.com/).
 
 * Gulp
 * Stylesheets
   * basscss.css
-	* mixins.scss
+  * mixins.scss
 * Javascript
-	* modernizr custom build
+  * modernizr custom build
 
 ___
 
@@ -16,7 +16,7 @@ ___
 
 #### 0.5.0
 * Basscss 7.0.4
-* Stripped Basscss of any theming
+* Single Basscss file instead of separate modules
 * Use Gulp instead of Grunt
 * Update packages
 
