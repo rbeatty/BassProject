@@ -1,6 +1,12 @@
 <?php require "partials/head.php" ?>
 
-<div class="container">
+<a id="skippy" class="sr-only sr-only-focusable" href="#main">
+  <div class="container">
+    <span>Skip to content</span>
+  </div>
+</a>
+
+<div id="main" class="container" role="main" tabindex="-1">
   <div class="clearfix">
     <div class="col-12">
       <h1 class="mb0">BassProject</h1>
