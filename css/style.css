@@ -46,13 +46,13 @@ input[type=time],
 input[type=url],
 input[type=week] {
   height: 2.25rem;
-  padding: 0.5rem 0.5rem;
+  padding: .5rem .5rem;
   vertical-align: middle;
   -webkit-appearance: none; }
 
 select {
   line-height: 1.75;
-  padding: 0.5rem 0.5rem; }
+  padding: .5rem .5rem; }
 
 select:not([multiple]) {
   height: 2.25rem;
@@ -60,7 +60,7 @@ select:not([multiple]) {
 
 textarea {
   line-height: 1.75;
-  padding: 0.5rem 0.5rem; }
+  padding: .5rem .5rem; }
 
 table {
   border-collapse: separate;
@@ -74,7 +74,7 @@ th {
 
 th,
 td {
-  padding: 0.25rem 1rem;
+  padding: .25rem 1rem;
   line-height: inherit; }
 
 th {
@@ -213,7 +213,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   line-height: 1.125rem;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   margin: 0;
   height: auto;
   border: 1px solid transparent;
@@ -894,17 +894,11 @@ hr {
 .not-rounded {
   border-radius: 0; }
 
-.placeholder {
+:placeholder-shown {
   color: rgba(0, 0, 0, 0.5); }
 
-:-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5); }
-
-::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5); }
-
-::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.5); }
+::selection {
+  background-color: #add819; }
 
 body {
   font: normal normal normal 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serf;

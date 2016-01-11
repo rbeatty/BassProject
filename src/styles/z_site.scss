@@ -1,11 +1,28 @@
-@import "imports/_mixins";
-@import "imports/_basscss";
-
 $body-font: "Helvetica Neue", Helvetica, Arial, sans-serf;
 $heading-font: $body-font;
 
-@include placeholder {
-  color: rgba(0,0,0,0.5);
+$primary: #add819;
+$light: #ccc;
+$mid: #777;
+$dark: #333;
+
+$danger: #D33F49;
+$success: $primary;
+
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+$breakpoint-sm: '(min-width: #{$sm})' !default;
+$breakpoint-md: '(min-width: #{$md})' !default;
+$breakpoint-lg: '(min-width: #{$lg})' !default;
+
+@import "imports/basscss";
+
+:placeholder-shown {
+  color: rgba(black,.5);
+}
+::selection {
+  background-color: $primary;
 }
 
 body {

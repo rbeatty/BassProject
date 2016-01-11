@@ -6,13 +6,17 @@ A starting point for new web projects using [Basscss](http://www.basscss.com/).
 * Gulp
 * Stylesheets
   * basscss.css
-  * mixins.scss
 * Javascript
   * modernizr custom build
 
 ___
 
 ### Changelog
+
+#### 0.6.0
+* Add screen reader classes
+* Update packages
+* Other miscellaneous updates
 
 #### 0.5.0
 * Basscss 7.0.4

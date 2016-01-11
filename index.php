@@ -9,4 +9,7 @@
   </div>
 </div>
 
-<?php require "partials/footer.php" ?>
+<script src="js/script.js"></script>
+
+</body>
+</html>
