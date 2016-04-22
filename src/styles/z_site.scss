@@ -33,7 +33,7 @@ $golden-rule: 1.6180339887498948420;
 }
 
 body {
-  font: normal normal normal 16px/$golden-rule $body-font;
+  font: normal normal normal 16px/#{$golden-rule} $body-font;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
