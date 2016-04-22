@@ -13,6 +13,10 @@ ___
 
 ### Changelog
 
+#### 0.7.0 (Courtesy of [james2doyle](https://github.com/james2doyle))
+* Basscss 8.0.1
+* Misc modifications
+
 #### 0.6.0
 * Add screen reader classes
 * Update packages
