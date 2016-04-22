@@ -1,6 +1,10 @@
 $body-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $heading-font: $body-font;
 
+$normal: 400;
+$medium: 500;
+$bold: 700;
+
 $primary: #add819;
 $light: #ccc;
 $mid: #777;
@@ -16,17 +20,20 @@ $breakpoint-sm: '(min-width: #{$sm})' !default;
 $breakpoint-md: '(min-width: #{$md})' !default;
 $breakpoint-lg: '(min-width: #{$lg})' !default;
 
+$golden-rule: 1.6180339887498948420;
+
 @import "imports/basscss";
 
 :placeholder-shown {
   color: rgba(black,.5);
 }
+
 ::selection {
   background-color: $primary;
 }
 
 body {
-  font: normal normal normal 16px/1.5 $body-font;
+  font: normal normal normal 16px/$golden-rule $body-font;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,6 +52,7 @@ body {
   clip: rect(0,0,0,0);
   border: 0;
 }
+
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
@@ -68,4 +76,16 @@ body {
     padding: .5em;
     outline: 1px dotted;
   }
+}
+
+@media #{$breakpoint-sm} {
+  // styles for $breakpoint-sm
+}
+
+@media #{$breakpoint-md} {
+  // styles for $breakpoint-md
+}
+
+@media #{$breakpoint-lg} {
+  // styles for $breakpoint-lg
 }
