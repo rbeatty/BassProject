@@ -78,19 +78,19 @@
 .align-middle{ vertical-align:middle }
 .align-bottom{ vertical-align:bottom }
 
-@mixin spacing ($prefix) {
+@mixin spacing ($prefix, $style) {
   @each $key, $value in (0: 0, 1: 0.5rem, 2: 1rem, 3: 2rem, 4: 4rem) {
-    .#{$prefix}#{$key} { margin:$value }
-    .#{$prefix}t#{$key} { margin-top:$value }
-    .#{$prefix}r#{$key} { margin-right:$value }
-    .#{$prefix}b#{$key} { margin-bottom:$value }
-    .#{$prefix}l#{$key} { margin-left:$value }
-    .#{$prefix}x#{$key} { margin-left:$value; margin-right:$value }
-    .#{$prefix}y#{$key} { margin-top:$value; margin-bottom:$value }
+    .#{$prefix}#{$key} { #{$style}:$value }
+    .#{$prefix}t#{$key} { #{$style}-top:$value }
+    .#{$prefix}r#{$key} { #{$style}-right:$value }
+    .#{$prefix}b#{$key} { #{$style}-bottom:$value }
+    .#{$prefix}l#{$key} { #{$style}-left:$value }
+    .#{$prefix}x#{$key} { #{$style}-left:$value; #{$style}-right:$value }
+    .#{$prefix}y#{$key} { #{$style}-top:$value; #{$style}-bottom:$value }
   }
 }
 
-@include spacing('m');
+@include spacing('m', 'margin');
 
 .mxn1{ margin-left: -.5rem; margin-right: -.5rem; }
 .mxn2{ margin-left: -1rem; margin-right: -1rem; }
@@ -101,7 +101,7 @@
 .mr-auto{ margin-right:auto }
 .mx-auto{ margin-left:auto; margin-right:auto; }
 
-@include spacing('p');
+@include spacing('p', 'padding');
 
 .col{
   float:left;
