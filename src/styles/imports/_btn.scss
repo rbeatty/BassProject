@@ -60,6 +60,6 @@ $darken-3: rgba(0, 0, 0, .25) !default;
   }
 }
 
-@include btn('mint', white, $mint);
-@include btn('caliente', white, $caliente);
+@include btn('light', $dark, $light);
+@include btn('dark', white, $dark);
 @include btn('primary', white, $primary);
