@@ -30,6 +30,12 @@ $golden-rule: 1.6180339887498948420;
 
 ::selection {
   background-color: $primary;
+  background-color: rgba($primary, 0.5);
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 body {
