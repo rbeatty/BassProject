@@ -1,21 +1,11 @@
 <?php require "partials/head.php" ?>
 
-<a id="skippy" class="sr-only sr-only-focusable" href="#main">
-  <div class="container">
-    <span>Skip to content</span>
-  </div>
-</a>
-
-<div id="main" class="container" role="main" tabindex="-1">
-  <div class="clearfix">
-    <div class="col-12">
-      <h1 class="mb0">BassProject</h1>
-      <p>Based off of <a href="http://www.basscss.com/" target="_blank">Basscss</a> by <a href="http://jxnblk.com/" target="_blank">jxnblk</a></p>
-    </div>
-  </div>
+<div id="main" class="max-width-4 mx-auto" role="main" tabindex="-1">
+  <h1 class="mb0">bassproject</h1>
+  <p>A starting template for new web projects based off of <a href="http://www.basscss.com/" rel="nofollow" target="_blank">basscss</a>. Addons: <a href="https://www.npmjs.com/package/basscss-addons" rel="nofollow" target="_blank">NPM</a></p>
 </div>
 
-<script src="js/script.js"></script>
+<script src="assets/script.js"></script>
 
 </body>
 </html>

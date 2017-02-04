@@ -1,17 +1,19 @@
-BassProject
+bassproject
 ===========
 
-A starting point for new web projects using [Basscss](http://www.basscss.com/).
-
-* Gulp
-* Stylesheets
-  * basscss.css
-* Javascript
-  * modernizr custom build
+A starting template for new web projects based off of [basscss](http://www.basscss.com/).
 
 ___
 
 ### Changelog
+
+#### 0.8.0
+* NPM Basscss
+* New folder structure
+* Rewrite gulpfile
+* Drop old IE support
+* System fonts as default
+* Social icons
 
 #### 0.7.0 (Courtesy of [james2doyle](https://github.com/james2doyle))
 * Basscss 8.0.1
