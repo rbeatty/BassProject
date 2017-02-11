@@ -25,6 +25,11 @@ $warn: #FFCA3A;
 	background-color: rgba($primary,.75);
 }
 
+:-webkit-autofill {
+	-webkit-text-fill-color: $dark;
+	-webkit-box-shadow: 0 0 0 999px white inset;
+}
+
 body {
 	font-family: $sans-font;
 	color: $dark;

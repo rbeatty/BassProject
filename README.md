@@ -7,7 +7,7 @@ ___
 
 ### Changelog
 
-#### 0.8.2
+#### 0.8.3
 * NPM Basscss
 * New folder structure
 * Rewrite gulpfile
