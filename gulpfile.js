@@ -7,7 +7,6 @@ pleeeaseOptions = {
 	import: true,
 	minifier: { removeAllComments: true },
 	mqpacker: true,
-	next: false,
 	opacity: false,
 	pseudoElements: true,
 	rebaseUrls: false,
