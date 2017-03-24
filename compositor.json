@@ -1,0 +1,88 @@
+{
+  "name": "rbeatty/bassproject",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/rbeatty/bassproject",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/bassproject",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "bassproject",
+      "subhead": "A starting template for new web projects based off of basscss",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "bassproject: A starting template for new web projects based off of basscss",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "rbeatty",
+          "repo": "bassproject"
+        }
+      ],
+      "text": "v0.8.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<hr>\n<h3>Changelog</h3>\n<h4>0.8.3</h4>\n<ul>\n<li>NPM Basscss</li>\n<li>New folder structure</li>\n<li>Rewrite gulpfile</li>\n<li>Drop old IE support</li>\n<li>System fonts as default</li>\n<li>Social icons</li>\n</ul>\n<h4>0.7.0 (Courtesy of <a href=\"https://github.com/james2doyle\">james2doyle</a>)</h4>\n<ul>\n<li>Basscss 8.0.1</li>\n<li>Misc modifications</li>\n</ul>\n<h4>0.6.0</h4>\n<ul>\n<li>Add screen reader classes</li>\n<li>Update packages</li>\n<li>Other miscellaneous updates</li>\n</ul>\n<h4>0.5.0</h4>\n<ul>\n<li>Basscss 7.0.4</li>\n<li>Single Basscss file instead of separate modules</li>\n<li>Use Gulp instead of Grunt</li>\n<li>Update packages</li>\n</ul>\n<h4>0.4.0</h4>\n<ul>\n<li>Added ie8.js</li>\n</ul>\n<h4>0.3.0</h4>\n<ul>\n<li>Basscss 5.2.1</li>\n<li>Added additional favicons</li>\n<li>Added respond.js for old IE</li>\n</ul>\n<h4>0.2.0</h4>\n<ul>\n<li>Basscss 5.0.1</li>\n<li>Bump package versions</li>\n</ul>\n<h4>0.1.0</h4>\n<ul>\n<li>Basscss 4.3.2</li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/rbeatty/bassproject",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/rbeatty",
+          "text": "rbeatty"
+        }
+      ]
+    }
+  ]
+}
